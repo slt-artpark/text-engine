@@ -19,6 +19,21 @@ python3 setup.py install
 cd .. 
 
 echo "--------------------------------------------------------------"
+echo "cloning github repo clips/pattern.git"
+echo "--------------------------------------------------------------"
+echo ""
+rm -rf pattern
+git clone https://github.com/clips/pattern.git
+
+echo "--------------------------------------------------------------"
+echo "installing pattern"
+echo "--------------------------------------------------------------"
+echo ""
+cd pattern
+python3 setup.py install
+cd ..
+
+echo "--------------------------------------------------------------"
 echo "cloning github repo slt-artpark/CorrectLy.git"
 echo "--------------------------------------------------------------"
 echo ""
