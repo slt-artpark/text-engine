@@ -18,20 +18,8 @@ cd language-check
 python3 setup.py install
 cd .. 
 
-echo "--------------------------------------------------------------"
-echo "cloning github repo clips/pattern.git"
-echo "--------------------------------------------------------------"
-echo ""
-rm -rf pattern
-git clone https://github.com/clips/pattern.git
-
-echo "--------------------------------------------------------------"
-echo "installing pattern"
-echo "--------------------------------------------------------------"
-echo ""
-cd pattern
-python3 setup.py install
-cd ..
+pip3 install pattern3
+sed -i '36s/.*/    pass/' /usr/local/lib/python3.6/dist-packages/pattern3/text/tree.py
 
 echo "--------------------------------------------------------------"
 echo "cloning github repo slt-artpark/CorrectLy.git"
