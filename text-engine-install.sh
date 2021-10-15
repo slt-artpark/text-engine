@@ -52,4 +52,4 @@ echo "--------------------------------------------------------------"
 echo "install Flask-ngrok"
 echo "--------------------------------------------------------------"
 echo ""
-!pip3 install flask-ngrok
+pip3 install flask-ngrok
