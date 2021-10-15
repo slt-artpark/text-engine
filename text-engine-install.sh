@@ -7,6 +7,7 @@ echo "--------------------------------------------------------------"
 echo "cloning github repo slt-artpark/language-check.git"
 echo "--------------------------------------------------------------"
 echo ""
+rm -rf language-check
 git clone https://github.com/slt-artpark/language-check.git
 
 echo "--------------------------------------------------------------"
@@ -21,6 +22,7 @@ echo "--------------------------------------------------------------"
 echo "cloning github repo slt-artpark/CorrectLy.git"
 echo "--------------------------------------------------------------"
 echo ""
+rm -rf CorrectLy
 git clone https://github.com/slt-artpark/CorrectLy.git
 
 echo "--------------------------------------------------------------"
