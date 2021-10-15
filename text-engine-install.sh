@@ -19,7 +19,7 @@ python3 setup.py install
 cd .. 
 
 pip3 install pattern3
-sed -i '36s/.*/    pass/' /usr/local/lib/python3.6/dist-packages/pattern3/text/tree.py
+sed -i '36s/.*/    pass/' /usr/local/lib/python3.7/dist-packages/pattern3/text/tree.py
 
 echo "--------------------------------------------------------------"
 echo "cloning github repo slt-artpark/CorrectLy.git"
